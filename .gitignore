@@ -1,0 +1,30 @@
+# macOS system files
+.DS_Store
+
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python virtual environments
+venv/
+backend/venv/
+
+# Environment files
+*.env
+backend/.env
+
+# FastAPI / Uvicorn artifacts
+*.log
+
+# Node/Next.js build output
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+frontend/.vercel/
+
+# Editor settings
+*.swp
+.idea/
+.vscode/
